@@ -19,6 +19,7 @@ func CanBuyBeer(location string, age int, promille float32) (bool, error) {
 	// 	return true, nil
 	// }
 	// return false, nil
+	//hej
 
 	if promille > 1.0 {
 		return false, nil
